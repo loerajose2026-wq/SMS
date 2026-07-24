@@ -1,0 +1,16 @@
+{
+  "name": "twilio-sms-fetch",
+  "version": "1.0.0",
+  "description": "Fetch SMS messages from Twilio",
+  "main": "fetch-sms.js",
+  "scripts": {
+    "start": "node fetch-sms.js"
+  },
+  "keywords": ["twilio", "sms"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "twilio": "^3.80.0"
+  }
+}
